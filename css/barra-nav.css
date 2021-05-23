@@ -1,0 +1,28 @@
+.barra-nav {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.barra-nav .cv {
+    float: left;
+}
+
+.barra-nav .barra-enlace {
+    float: right;
+}
+
+.barra-nav .cv a {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.barra-nav .barra-enlace a {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+}
