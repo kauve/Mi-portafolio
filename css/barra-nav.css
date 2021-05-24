@@ -1,28 +1,59 @@
 .barra-nav {
-    padding: 0;
-    margin: 0;
-    width: 100%;
     list-style-type: none;
-    overflow: hidden;
-    background-color: #333;
 }
+
+
+/* Enlace curriculum */
 
 .barra-nav .cv {
     float: left;
 }
 
+.barra-nav .cv a {
+    background-color: #e66627;
+    color: white;
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.cv a:hover {
+    background-color: #ff5500;
+    color: white;
+}
+
+.cv a {
+    transition: all 0.5s;
+}
+
+
+/* Enlaces de navegacion */
+
 .barra-nav .barra-enlace {
     float: right;
 }
 
-.barra-nav .cv a {
-    display: block;
-    padding: 14px 16px;
-    text-decoration: none;
+.barra-nav .barra-enlace a {
+    left: -30px;
 }
 
-.barra-nav .barra-enlace a {
+.barra-enlace a:hover {
+    color: #e66627;
+}
+
+.barra-enlace a {
+    transition: color 0.5s;
+}
+
+
+/* Todos los enlaces */
+
+.barra-nav a {
     display: block;
-    padding: 14px 16px;
+    font-size: 18px;
+    margin-left: 30px;
+    padding: 10px 20px;
     text-decoration: none;
+    position: relative;
+    top: 20px;
+    color: black;
 }
