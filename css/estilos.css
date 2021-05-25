@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
 }
 
 html {
@@ -9,14 +11,14 @@ html {
     padding: 0;
 }
 
-header {
-    width: 100%;
-    position: fixed;
-    z-index: 100;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    overflow: hidden;
-    width: 100%;
-    /* Altura de la barra */
-    height: 80px;
-    background: #d5d3d1;
+header {}
+
+main {
+    background-color: rgb(224, 221, 221);
+}
+
+.contenedor {
+    width: 1200px;
+    margin: auto;
+    /* 1vh = 1% del total de la pantalla, 100vh = 100%. */
 }
