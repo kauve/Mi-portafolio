@@ -6,6 +6,10 @@
     width: 100%;
 }
 
+.proyectos-container {
+    background-color: aqua;
+}
+
 
 /* El contenedor ocupara un ancho de 1200px y un 80% de alto del #mis-proyectos,tambien estara centrado */
 
@@ -13,17 +17,19 @@
     position: absolute;
     height: 80%;
     width: 1200px;
-    background-color: #e66627;
+    background-color: #121700;
     text-align: center;
     padding: 40px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: #dce0ca;
     border-radius: 5px;
+    box-shadow: 0px 4px 15px rgb(0 0 0 / 20%);
 }
 
-.mis-proyectos p {
+.mis-proyectos p,
+h1 {
     font-size: 12ch;
 }
 
@@ -41,8 +47,9 @@
 /* El contenedor de cada proyeto ocupara el 25% del ancho del contenedor .proyectos */
 
 .proyecto-opciones {
-    width: 25%;
-    background-color: #d5d3d1;
+    width: 29%;
+    background-color: #dce0ca;
+    ;
     display: block;
     text-align: center;
     border-radius: 10px;
@@ -63,5 +70,33 @@
 .proyecto-opciones p {
     padding: 20px;
     font-size: 4ch;
-    color: black;
+    color: #121700;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width:1200px) {
+    .mis-proyectos {
+        position: absolute;
+        height: 80%;
+        width: 85%;
+        background-color: #121700;
+        text-align: center;
+        padding: 40px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #dce0ca;
+        border-radius: 5px;
+        box-shadow: 0px 4px 15px rgb(0 0 0 / 20%);
+    }
+    .mis-proyectos p {
+        font-size: 10ch;
+    }
+    .proyecto-opciones p {
+        padding: 20px;
+        font-size: 3ch;
+        color: #121700;
+    }
 }

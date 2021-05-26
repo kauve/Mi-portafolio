@@ -6,7 +6,7 @@
                                                 overflow: hidden;
                                                 /* Altura de la barra */
                                                 height: 8vh;
-                                                background: #d5d3d1;
+                                                background: #121700;
                                             }
                                             /* Enlace curriculum */
                                             
@@ -16,8 +16,8 @@
                                             
                                             .barra-nav .cv a {
                                                 display: inline-block;
-                                                background-color: #e66627;
-                                                color: white;
+                                                background-color: #516600;
+                                                color: #dce0ca;
                                                 /* offset-x | offset-y | blur-radius | spread-radius | color */
                                                 box-shadow: 0px 4px 15px rgb(0 0 0 / 20%);
                                                 border-radius: 5px;
@@ -25,8 +25,8 @@
                                             
                                             .cv a:hover {
                                                 transform: scale(1.1);
-                                                background-color: #ff5500;
-                                                color: white;
+                                                background-color: #516600;
+                                                color: #dce0ca;
                                             }
                                             
                                             .cv a {
@@ -43,13 +43,13 @@
                                             }
                                             
                                             .barra-enlace a:hover {
-                                                color: #e66627;
+                                                color: #516600;
                                                 transform: scale(1.1);
                                             }
                                             
                                             .barra-enlace a:active {
-                                                color: white;
-                                                background-color: #ff5500;
+                                                color: #dce0ca;
+                                                background-color: #516600;
                                                 border-radius: 30px;
                                                 transform: scale(1.1);
                                             }
@@ -66,7 +66,7 @@
                                                 margin-left: 30px;
                                                 position: relative;
                                                 top: 20px;
-                                                color: black;
+                                                color: #dce0ca;
                                             }
                                             /* RESPONSIVE */
                                             
@@ -78,10 +78,10 @@
                                                     padding: 10px 20px;
                                                     position: relative;
                                                     top: 20px;
-                                                    color: black;
+                                                    color: #dce0ca;
                                                 }
                                                 .cv {
-                                                    color: white;
+                                                    color: #dce0ca;
                                                 }
                                             }
                                             
@@ -99,7 +99,7 @@
                                                 .barra-nav .cv a {
                                                     display: block;
                                                     width: 100vh;
-                                                    color: white;
+                                                    color: #dce0ca;
                                                     background: none;
                                                     box-shadow: none;
                                                     float: none;
@@ -107,7 +107,7 @@
                                                 .barra-enlace a:hover,
                                                 .cv a:hover {
                                                     border: none;
-                                                    color: white;
+                                                    color: #dce0ca;
                                                     transform: scale(1);
                                                 }
                                             }

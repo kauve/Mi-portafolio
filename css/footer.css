@@ -1,0 +1,50 @@
+#footer {
+    height: 92vh;
+    width: 100%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template: "titulo titulo" 20% "formulario redes"/ auto auto;
+}
+
+.titulo {
+    position: relative;
+    grid-area: titulo;
+}
+
+.titulo h1 {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.formulario {
+    position: relative;
+    grid-area: formulario;
+    height: 100%;
+    background-color: gray;
+}
+
+.redes {
+    position: relative;
+    grid-area: redes;
+    background-color: red;
+}
+
+.contenido {
+    display: block;
+    width: 60%;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contenido input {
+    width: 100%;
+}

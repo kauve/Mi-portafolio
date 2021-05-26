@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/quien-soy.css">
     <link rel="stylesheet" href="css/mis-proyectos.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="icon" type="image/x-icon" href="" />
 </head>
 
@@ -22,11 +23,11 @@
                     <a href="">Descargar CV</a>
                 </li>
                 <li class="barra-enlace">
-                    <a href="">CONTACTAME</a>
+                    <a href="#footer">CONTACTAME</a>
                 </li>
 
                 <li class="barra-enlace">
-                    <a href="#mis-proyectos">MIS PROYECTOS</a>
+                    <a href="#proyectos-">MIS PROYECTOS</a>
                 </li>
                 <li class="barra-enlace">
                     <a href="#quien-soy">¿QUIEN SOY?</a>
@@ -45,35 +46,71 @@
                 <p>Front-end Developer</p>
             </section>
         </section>
-
-        <section id="mis-proyectos" class="contenedor">
-            <section class="mis-proyectos">
-                <p>Mis proyectos</p>
-                <section class="proyectos">
-                    <section class="proyecto-opciones">
-                        <a href="">
-                            <img src="imagenes/header.jpg" alt="">
-                            <p>Proyecto uno</p>
-                        </a>
-                    </section>
-                    <section class="proyecto-opciones">
-                        <a href="">
-                            <img src="imagenes/header.jpg" alt="">
-                            <p>Proyecto dos</p>
-                        </a>
-                    </section>
-                    <section class="proyecto-opciones">
-                        <a href="">
-                            <img src="imagenes/header.jpg" alt="">
-                            <p>Proyecto tres</p>
-                        </a>
+        <section id="proyectos-" class="proyectos-container">
+            <section id="mis-proyectos" class="contenedor">
+                <section class="mis-proyectos">
+                    <h1>Mis proyectos</h1>
+                    <section class="proyectos">
+                        <section class="proyecto-opciones">
+                            <a href="">
+                                <img src="imagenes/header.jpg" alt="">
+                                <p>Proyecto uno</p>
+                            </a>
+                        </section>
+                        <section class="proyecto-opciones">
+                            <a href="">
+                                <img src="imagenes/header.jpg" alt="">
+                                <p>Proyecto dos</p>
+                            </a>
+                        </section>
+                        <section class="proyecto-opciones">
+                            <a href="">
+                                <img src="imagenes/header.jpg" alt="">
+                                <p>Proyecto tres</p>
+                            </a>
+                        </section>
                     </section>
                 </section>
             </section>
         </section>
 
     </main>
-    <footer></footer>
+    <footer id="footer" class="grid-container contenedor">
+
+
+        <section class="titulo">
+            <h1>CONTACTAME</h1>
+        </section>
+
+        <form class="formulario">
+
+            <section class="contenido">
+
+                <p>Nombre:</p>
+                <input type="text" placeholder="Ingrese su nombre..."> <br/>
+                <p>Correo electronico:</p>
+                <input type="text" placeholder="Correo electronico..."> <br/>
+                <p>Asunto:</p>
+                <input type="text" placeholder="Asunto..."> <br/>
+                <p>Mensaje:</p>
+                <input type="text" placeholder="Mensaje..."> <br/>
+                <input type="submit">
+            </section>
+        </form>
+        <section class="redes">
+            <section class="contenido">
+                <p>Nombre:</p>
+                <input type="text" placeholder="Ingrese su nombre..."> <br/>
+                <p>Correo electronico:</p>
+                <input type="text" placeholder="Correo electronico..."> <br/>
+                <p>Asunto:</p>
+                <input type="text" placeholder="Asunto..."> <br/>
+                <p>Mensaje:</p>
+                <input type="text" placeholder="Mensaje..."> <br/>
+                <input type="submit">
+            </section>
+        </section>
+    </footer>
 
     <script type="text/javascript" src=""></script>
 </body>
