@@ -1,0 +1,42 @@
+/* MAIN*/
+
+.grid-container-main {
+    display: grid;
+    grid-template: "quien-soy""proyectos";
+}
+
+.quien-soy-contenedor {
+    position: relative;
+    grid-area: quien-soy;
+}
+
+.proyectos-container {
+    position: relative;
+    grid-area: proyectos;
+}
+
+
+/* FOOTER */
+
+.grid-container {
+    display: grid;
+    grid-template: "titulo titulo" 20% "formulario redes"/ auto auto;
+}
+
+.titulo {
+    position: relative;
+    grid-area: titulo;
+    background-color: #dce0ca;
+}
+
+.formulario {
+    position: relative;
+    grid-area: formulario;
+    background-color: #dce0ca;
+}
+
+.redes {
+    position: relative;
+    grid-area: redes;
+    background-color: #dce0ca;
+}

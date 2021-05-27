@@ -1,13 +1,12 @@
 /* El contenedor ocupara todo ancho */
 
 #mis-proyectos {
-    position: relative;
     height: 92vh;
     width: 100%;
 }
 
 .proyectos-container {
-    background-color: aqua;
+    background-color: #dce0ca;
 }
 
 

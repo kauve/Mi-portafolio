@@ -16,9 +16,3 @@ header {}
 main {
     background-color: #dce0ca;
 }
-
-.contenedor {
-    width: 1200px;
-    margin: auto;
-    /* 1vh = 1% del total de la pantalla, 100vh = 100%. */
-}
