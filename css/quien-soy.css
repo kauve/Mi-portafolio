@@ -9,7 +9,6 @@
 
 .quien-soy-contenedor {
     /* la imagen empezara 8vh debajo, el mismo tamaño que la bara de nav */
-    margin-top: 8vh;
     width: 100%;
     /* 1vh = 1% del total de la pantalla, 100vh = 100%. */
     height: 92vh;
