@@ -1,114 +1,103 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Portafolio</title>
-    <meta name="author" content="Your Name">
-    <meta name="description" content="Example description">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/barra-nav.css">
-    <link rel="stylesheet" href="css/estilos.css">
-    <link rel="stylesheet" href="css/quien-soy.css">
-    <link rel="stylesheet" href="css/mis-proyectos.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/grid.css">
-    <link rel="icon" type="image/x-icon" href="" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/index-imagenes-principales.css">
+    <link rel="stylesheet" href="css/index-proyectos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <nav class="navegacion">
-            <ul class="barra-nav">
-                <li class="barra-enlace">
-                    <a href="#quien-soy">¿QUIEN SOY?</a>
-                </li>
-                <li class="barra-enlace">
-                    <a href="#proyectos-">MIS PROYECTOS</a>
-                </li>
-                <li class="barra-enlace">
-                    <a href="#footer">CONTACTAME</a>
-                </li>
-                <li class="cv">
-                    <a href="">DESCARGAR CV</a>
-                </li>
+    <header class="header-container">
+        <nav class="nav-items-container">
+            <ul class="nav-items-CV">
+                <a href="#">Descargar CV</a>
+            </ul>
+            <ul class="nav-items-links">
+                <a href="#">¿Quien soy?</a>
+                <a href="#">Proyectos</a>
+                <a href="#">Contactame</a>
             </ul>
         </nav>
     </header>
 
-    <main class="main grid-container-main">
+    <section class="imagenes-principales-container">
+        <div class="imagenes-bg colorear ">
+            <img class="imagenes-principales" src="imagenes/imagen 2.jpg" alt="">
+        </div>
+        <div class="imagenes-bg colorear ">
+            <img class="imagenes-principales" src="imagenes/imagen 3.jpg" alt="">
+        </div>
+        <div class="imagenes-bg colorear ">
+            <img class="imagenes-principales" src="imagenes/imagen 1.jpg" alt="">
+        </div>
+    </section>
+    <section class="imagenes-principales-tonalidad-container">
+        <div class="tonalidad">
+            <h1>TONALIDAD :</h1>
+            <form class="tonalidad-form">
+                <select name="BackgroundChanger" id="mySelection" onchange="colorChanger()">
+                    <option value="">Default</option>
+                    <option value="tomato">Color 1</option>
+                </select>
+            </form>
+            <p id="dummy"></p>
+        </div>
+        <script src="js/cambiar-color.js"></script>
+    </section>
 
-        <section id="quien-soy" class="quien-soy-contenedor">
-            <img class="img" src="/imagenes/header.jpg" alt="">
-            <section class="texto-img">
-                <img class="perfil-img" src="/imagenes/pp.jpg" alt="">
-                <h1>CARLOS HERNANDEZ</h1>
-                <p>Front-end Developer</p>
+    <section class="proyectos-container">
+        <section class="proyectos-proyectos-container">
+            <section class="proyectos-proyectos-titulo-container">
+                <h1>PROYECTOS</h1>
+            </section>
+            <section class="proyectos-proyectos-item-container">
+                <div class="proyectos-slider">
+                    <div class="proyectos-items-slider">
+                        <img src="imagenes/2019060315-logo-sports-center.jpg" alt="">
+                    </div>
+                    <div class="proyectos-items-slider">
+                        <img src="imagenes/shutterstock_227788621.jpg" alt="">
+                    </div>
+                </div>
             </section>
         </section>
-        <section id="proyectos-" class="proyectos-container">
-            <section id="mis-proyectos">
-                <section class="mis-proyectos">
-                    <h1>Mis proyectos</h1>
-                    <section class="proyectos">
-                        <section class="proyecto-opciones">
-                            <a href="">
-                                <img src="imagenes/header.jpg" alt="">
-                                <p>Proyecto uno</p>
-                            </a>
-                        </section>
-                        <section class="proyecto-opciones">
-                            <a href="">
-                                <img src="imagenes/header.jpg" alt="">
-                                <p>Proyecto dos</p>
-                            </a>
-                        </section>
-                        <section class="proyecto-opciones">
-                            <a href="">
-                                <img src="imagenes/header.jpg" alt="">
-                                <p>Proyecto tres</p>
-                            </a>
-                        </section>
-                    </section>
-                </section>
+        <section class="proyectos-descripcion-container">
+            <section class="proyectos-descripcion-titulo-container">
+                <h1>DESCRIPCION</h1>
+            </section>
+            <section class="proyectos-descripcion-contenido-container">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores a, placeat consequuntur animi sapiente molestiae accusantium eligendi et dignissimos doloremque aliquid optio facilis, pariatur dolor voluptatem dicta, repellat dolore
+                    officia.
+                </p>
+            </section>
+            <section class="proyectos-descripcion-fecha-container">
+                <h1>29/07/2021</h1>
+                <a class="boton-web" href="#">Visitar web</a>
             </section>
         </section>
+    </section>
 
-    </main>
-    <footer id="footer" class="grid-container contenedor">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
-
-        <section class="titulo">
-            <h1>CONTACTAME</h1>
-        </section>
-
-        <form class="formulario">
-
-            <section class="contenido">
-
-                <section class="contenido">
-                    <label for="nombre">Nombre</label>
-                    <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre" />
-
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email" placeholder="email" required />
-
-                    <label for="asunto">Asunto</label>
-                    <input type="text" name="asunto" id="asunto" placeholder="titular de la consulta" />
-
-                    <label for="mensaje">Mensaje</label>
-                    <textarea name="mensaje" for="mensaje" placeholder="describe brevemente en menos de 300 carácteres" maxlength="300"></textarea>
-
-                    <input type="submit" name="enviar" value="Enviar datos" />
-                </section>
-            </section>
-        </form>
-        <section class="redes">
-
-        </section>
-    </footer>
-
-    <script type="text/javascript" src=""></script>
+    <script type="text/javascript">
+        $('.proyectos-slider').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: false,
+            autoplaySpeed: 2000,
+        });
+    </script>
 </body>
 
 </html>
