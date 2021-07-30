@@ -1,0 +1,53 @@
+footer {
+    height: 250px;
+    width: 100%;
+    background-color: #201e1e;
+}
+
+.redes-footer {
+    width: 50%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px #c0c0c0;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    font-family: lato;
+}
+
+.contacto a {
+    color: #c0c0c0;
+    font-size: 18px;
+    font-family: lato;
+    text-decoration: none;
+    margin: 6px 0;
+}
+
+.contacto i {
+    margin: 0px 10px;
+    font-size: 30px;
+}
+
+.redes i {
+    font-size: 30px;
+    margin: 5px;
+    color: #c0c0c0;
+}
+
+.creditos-footer {
+    width: 50%;
+    font-size: 18px;
+    font-family: lato;
+    text-align: center;
+    margin: auto;
+    color: #c0c0c0;
+    background-color: #201e1e;
+    display: flex;
+    justify-content: center;
+    line-height: 49px;
+}
